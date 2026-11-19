@@ -21,7 +21,7 @@ klienty/<клиент>/
   statistika/  primery/
   audit.md  strategiya-<год>-<месяц>.md  kontent-plan-<год>-<месяц>.md
   teksty/  scenarii/  vizual/  soobshcheniya/  otchet-<год>-<месяц>.md
-klienty/fitnes-trener/uslugi.md  услуги тренера для менеджера
+klienty/fitnes-trener-bogdan/uslugi.md  услуги тренера для менеджера
 ```
 
 ## Правила
