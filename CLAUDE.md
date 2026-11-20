@@ -18,7 +18,7 @@
 ustav.md                         цены, услуги, правила агентства
 klienty/<клиент>/
   brif.md  vizual-stil.md  konkurenty.md  zhurnal-nachal.md
-  statistika/  primery/
+  statistika/  primery/  brendbuk/
   audit.md  strategiya-<год>-<месяц>.md  kontent-plan-<год>-<месяц>.md
   teksty/  scenarii/  vizual/  soobshcheniya/  otchet-<год>-<месяц>.md
 klienty/fitnes-trener-bogdan/uslugi.md  услуги тренера для менеджера
