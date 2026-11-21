@@ -1,0 +1,75 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Montserrat:wght@500;600;700;800&family=Marck+Script&display=block" rel="stylesheet">
+<style>
+:root{--surface:#0A0A0A;--raised:#161616;--crimson:#5C0A0D;--red:#E1141B;--red-deep:#A50E14;--ink:#FFFFFF;--muted:#B3B3B3;--line:#2E2E2E}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#333}
+.slide{position:relative;overflow:hidden;background:var(--surface);color:var(--ink);font-family:Montserrat,sans-serif}
+.glow{position:absolute;border-radius:50%;filter:blur(40px);background:radial-gradient(circle,var(--crimson) 0%,rgba(92,10,13,.55) 40%,rgba(10,10,10,0) 70%)}
+.label{font-weight:700;font-size:24px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:14px}
+.label i{width:0;height:0;border-left:16px solid var(--red);border-top:10px solid transparent;border-bottom:10px solid transparent}
+.h{font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;line-height:.95;letter-spacing:.005em}
+.h .r{color:var(--red)}
+.script{font-family:'Marck Script',cursive;color:var(--red);transform:rotate(-6deg);transform-origin:left center;white-space:nowrap}
+.list{list-style:none;display:flex;flex-direction:column}
+.list li{display:flex;gap:18px;align-items:flex-start;font-weight:600;line-height:1.3}
+.list li:before{content:"";flex:none;margin-top:.38em;border-left:15px solid var(--red);border-top:9px solid transparent;border-bottom:9px solid transparent}
+.photo{position:absolute;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 98%);mask-image:linear-gradient(to bottom,#000 70%,transparent 98%)}
+.price{position:absolute}
+.old{font-family:Oswald,sans-serif;font-weight:600;color:var(--muted);position:relative;display:inline-block}
+.old:after{content:"";position:absolute;left:-6px;right:-6px;top:52%;height:6px;background:var(--red);transform:rotate(-8deg)}
+.new{font-family:Oswald,sans-serif;font-weight:700;color:var(--red);line-height:.9;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.new small{font-size:.42em;margin-left:10px;color:var(--ink)}
+.ribbon{display:inline-block;background:linear-gradient(90deg,var(--red),var(--red-deep));color:#fff;font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;transform:rotate(-3deg);transform-origin:left center}
+.cta{position:absolute;display:flex;align-items:center;justify-content:center;gap:16px;background:var(--red);color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.nick{position:absolute;font-weight:500;color:var(--muted)}
+.bgword{position:absolute;font-family:Oswald,sans-serif;font-weight:700;color:#fff;opacity:.05;line-height:.85;text-transform:uppercase;white-space:nowrap}
+</style></head><body>
+
+<!-- STORIES / REELS 1080x1920 -->
+<div class="slide" id="story" style="width:1080px;height:1920px">
+  <div class="glow" style="width:1100px;height:1100px;right:-420px;top:-300px"></div>
+  <div class="glow" style="width:900px;height:900px;left:-450px;top:950px;opacity:.75"></div>
+  <img class="photo" src="bogdan-vyrezka.png" style="width:640px;right:-90px;top:800px;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 96%)">
+  <div style="position:absolute;left:72px;right:72px;top:240px;bottom:330px;display:flex;flex-direction:column">
+    <div class="label"><i></i>Школа харчування · онлайн-курс</div>
+    <div class="h" style="font-size:114px;margin-top:26px">Розберись<br>у харчуванні<br><span class="r">за 14 днів</span></div>
+    <div class="script" style="font-size:76px;margin-top:16px;margin-left:6px">без голоду та дієт</div>
+    <ul class="list" style="font-size:32px;gap:16px;margin-top:36px;max-width:500px">
+      <li>Білки, жири, вуглеводи — просто</li>
+      <li>Баланс раціону під час схуднення</li>
+      <li>ПП-рецепти і доступ назавжди</li>
+    </ul>
+    <div style="margin-top:auto;padding-top:34px">
+      <div class="ribbon" style="font-size:38px;padding:10px 26px">−50% до 30 листопада включно</div>
+      <div style="margin-top:26px"><span class="old" style="font-size:64px">1999 грн</span></div>
+      <div class="new" style="font-size:196px;margin-top:2px">999<small>грн</small></div>
+      <div class="cta" style="position:static;height:104px;font-size:34px;margin-top:30px">Пиши «ШКОЛА» у повідомлення&nbsp;→</div>
+    </div>
+  </div>
+  <div class="nick" style="left:72px;top:1610px;font-size:25px">@konoplyanik2.0 · тренер, кінезіотерапевт</div>
+</div>
+
+<!-- FEED 1080x1350 -->
+<div class="slide" id="feed" style="width:1080px;height:1350px;margin-top:40px">
+  <div class="glow" style="width:1000px;height:1000px;right:-380px;top:-260px"></div>
+  <div class="glow" style="width:800px;height:800px;left:-420px;bottom:-300px;opacity:.8"></div>
+  <div style="position:absolute;left:72px;top:72px;right:72px">
+    <div class="label"><i></i>Школа харчування · онлайн-курс</div>
+    <div class="h" style="font-size:112px;margin-top:26px">Розберись<br>у харчуванні<br><span class="r">за 14 днів</span></div>
+    <div class="script" style="font-size:70px;margin-top:18px;margin-left:6px">без голоду та дієт</div>
+    <ul class="list" style="font-size:31px;gap:16px;margin-top:34px;max-width:520px">
+      <li>Білки, жири, вуглеводи — просто</li>
+      <li>Баланс раціону під час схуднення</li>
+      <li>ПП-рецепти · доступ назавжди</li>
+    </ul>
+  </div>
+  <img class="photo" src="bogdan-vyrezka.png" style="width:600px;right:-60px;top:560px;-webkit-mask-image:linear-gradient(to bottom,#000 75%,transparent 100%)">
+  <div class="price" style="left:72px;top:925px">
+    <div class="ribbon" style="font-size:34px;padding:8px 22px">−50% до 30 листопада включно</div>
+    <div style="margin-top:22px"><span class="old" style="font-size:60px">1999 грн</span></div>
+    <div class="new" style="font-size:170px">999<small>грн</small></div>
+  </div>
+  <div class="nick" style="right:72px;top:80px;font-size:24px">@konoplyanik2.0</div>
+</div>
+</body></html>
