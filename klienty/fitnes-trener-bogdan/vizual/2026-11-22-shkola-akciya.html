@@ -10,6 +10,7 @@ body{background:#333}
 .label i{width:0;height:0;border-left:16px solid var(--red);border-top:10px solid transparent;border-bottom:10px solid transparent}
 .h{font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;line-height:.95;letter-spacing:.005em}
 .h .r{color:var(--red)}
+.h,.script,.label{position:relative;z-index:2;text-shadow:0 4px 24px rgba(0,0,0,.85)}
 .script{font-family:'Marck Script',cursive;color:var(--red);transform:rotate(-6deg);transform-origin:left center;white-space:nowrap}
 .list{list-style:none;display:flex;flex-direction:column}
 .list li{display:flex;gap:18px;align-items:flex-start;font-weight:600;line-height:1.3}
@@ -24,12 +25,14 @@ body{background:#333}
 .cta{position:absolute;display:flex;align-items:center;justify-content:center;gap:16px;background:var(--red);color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
 .nick{position:absolute;font-weight:500;color:var(--muted)}
 .bgword{position:absolute;font-family:Oswald,sans-serif;font-weight:700;color:#fff;opacity:.05;line-height:.85;text-transform:uppercase;white-space:nowrap}
+.plate{position:absolute;border-radius:50%;-webkit-mask-image:radial-gradient(circle at 50% 50%,#000 52%,transparent 70%);mask-image:radial-gradient(circle at 50% 50%,#000 52%,transparent 70%);filter:saturate(1.1) contrast(1.05)}
 </style></head><body>
 
 <!-- STORIES / REELS 1080x1920 -->
 <div class="slide" id="story" style="width:1080px;height:1920px">
   <div class="glow" style="width:1100px;height:1100px;right:-420px;top:-300px"></div>
   <div class="glow" style="width:900px;height:900px;left:-450px;top:950px;opacity:.75"></div>
+  <img class="plate" src="unsplash-tarelka-5lFfglgMaao.jpg" style="width:700px;height:700px;object-fit:cover;right:-250px;top:170px;opacity:.95">
   <img class="photo" src="bogdan-vyrezka.png" style="width:640px;right:-90px;top:800px;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 96%)">
   <div style="position:absolute;left:72px;right:72px;top:240px;bottom:330px;display:flex;flex-direction:column">
     <div class="label"><i></i>Школа харчування · онлайн-курс</div>
@@ -54,6 +57,7 @@ body{background:#333}
 <div class="slide" id="feed" style="width:1080px;height:1350px;margin-top:40px">
   <div class="glow" style="width:1000px;height:1000px;right:-380px;top:-260px"></div>
   <div class="glow" style="width:800px;height:800px;left:-420px;bottom:-300px;opacity:.8"></div>
+  <img class="plate" src="unsplash-tarelka-5lFfglgMaao.jpg" style="width:640px;height:640px;object-fit:cover;right:-260px;top:40px;opacity:.95">
   <div style="position:absolute;left:72px;top:72px;right:72px">
     <div class="label"><i></i>Школа харчування · онлайн-курс</div>
     <div class="h" style="font-size:112px;margin-top:26px">Розберись<br>у харчуванні<br><span class="r">за 14 днів</span></div>
@@ -70,6 +74,6 @@ body{background:#333}
     <div style="margin-top:22px"><span class="old" style="font-size:60px">1999 грн</span></div>
     <div class="new" style="font-size:170px">999<small>грн</small></div>
   </div>
-  <div class="nick" style="right:72px;top:80px;font-size:24px">@konoplyanik2.0</div>
+  
 </div>
 </body></html>
