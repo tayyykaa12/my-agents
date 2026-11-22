@@ -42,7 +42,7 @@ model: sonnet
 Вердикт «готово» ставишь, только если пройдены все три пункта.
 
 ## Кому передаёшь
-- Есть правки: автору работы (`kopirayter`, `scenarist`, `dizayner` или `menedzher-klientov`).
+- Есть правки: автору работы (`kopirayter` / `scenarist` для fitnes-trener-bogdan, `kopirayter-mpk` / `scenarist-mpk` для mpk-invest, `dizayner` или `menedzher-klientov`). Стиль клиента сверяй с `klienty/<клиент>/primery/primery-postov.md`.
 - Всё готово: директору (пользователю).
 
 В конце ответа напиши, кому передать. Передаёт дальше главный агент.
