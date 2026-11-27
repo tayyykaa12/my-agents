@@ -8,11 +8,11 @@ def ph(f,pos): return f'<div class="ph" style="background-image:url({f}.jpg);bac
 def ex(n,name,why,steps,dose,pic):
     li=''.join(f'<div class="ln s" style="font-size:44px;margin-top:10px">▸ {x}</div>' for x in steps)
     return f'<div class="c" style="top:240px"><div class="ln" style="display:flex;align-items:flex-end;gap:26px"><div class="num" style="font-size:220px">{n}</div><div class="m" style="font-size:90px">{name}</div></div><div class="ln xs" style="margin-top:10px">{why}</div><div class="ln" style="margin-top:20px;text-align:center">{pic}</div>{li}<div class="ln m r" style="margin-top:20px">{dose}</div></div>'
-S=[(0,2.6,ph('10-zal-chervone-hudi-portret','50% 18%')+'<div class="c" style="bottom:330px"><div class="ln h">ШИЯ «<span class="r">КАМ’ЯНІЄ</span>»</div><div class="ln h">ПІСЛЯ НОУТБУКА</div><div class="ln m" style="margin-top:16px">3 РУХИ НА 2 ХВИЛИНИ</div><div class="ln xs" style="margin-top:10px">КІНЕЗІОТЕРАПЕВТ</div></div>',True),
+S=[(0,2.6,ph('16-selfi-osin-bilya-dereva-blyzko','50% 35%')+'<div class="c" style="bottom:330px"><div class="ln h">ШИЯ «<span class="r">КАМ’ЯНІЄ</span>»</div><div class="ln h">ПІСЛЯ НОУТБУКА</div><div class="ln m" style="margin-top:16px">3 РУХИ НА 2 ХВИЛИНИ</div><div class="ln xs" style="margin-top:10px">КІНЕЗІОТЕРАПЕВТ</div></div>',True),
 (2.6,4.2,'<div class="c" style="top:640px"><div class="ln h">ПРЯМО ЗА <span class="r">СТОЛОМ</span>,</div><div class="ln h">НЕ ВСТАЮЧИ</div></div>',False),
 (4.2,9.2,ex(1,'ПІДБОРІДДЯ НАЗАД','Вмикає глибокі згиначі шиї',['Голова рівно, погляд прямо','Відсунь підборіддя назад','Тримай 3 секунди'],'10 РАЗІВ',P1),False),
 (9.2,14.2,ex(2,'ВУХО ДО ПЛЕЧА','Розтягує верхню трапецію',['Плечі опущені','Повільно нахили голову вбік','Тягне, але не болить'],'20 С КОЖЕН БІК',P2),False),
 (14.2,19.2,ex(3,'ЛОПАТКИ РАЗОМ','Вмикає м’язи між лопатками',['Лікті зігнуті, плечі вниз','Зведи лопатки назад і вниз','Тримай 3 секунди'],'10 РАЗІВ',P3),False),
 (19.2,21.6,'<div class="c" style="top:640px"><div class="ln m">ЯКЩО БІЛЬ ГОСТРИЙ АБО ВІДДАЄ В РУКУ —</div><div class="ln h r" style="margin-top:20px">ДО ЛІКАРЯ</div></div>',False),
-(21.6,24.5,ph('10-zal-chervone-hudi-portret','50% 25%')+'<div class="c" style="bottom:330px"><div class="ln h"><span class="r">ЗБЕРЕЖИ</span></div><div class="ln h">І ЗРОБИ ЗАРАЗ</div></div>',True)]
+(21.6,24.5,ph('02-kurtka-park-profil','45% 20%')+'<div class="c" style="bottom:330px"><div class="ln h"><span class="r">ЗБЕРЕЖИ</span></div><div class="ln h">І ЗРОБИ ЗАРАЗ</div></div>',True)]
 build(S,24.5,'reel2.html')

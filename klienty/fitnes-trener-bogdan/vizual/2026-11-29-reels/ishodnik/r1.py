@@ -9,7 +9,7 @@ V={
 def ph(f,pos,shade='shade'): return f'<div class="ph" style="background-image:url({f}.jpg);background-position:{pos}"></div><div class="{shade}"></div>'
 def veg(n,name,kc,tip,icon):
     return f'<div class="c" style="top:250px"><div class="ln" style="display:flex;align-items:flex-end;gap:30px"><div class="num">{n}</div><div class="big" style="font-size:150px">{name}</div></div><div class="ln" style="margin-top:40px">{V[icon]}</div><div class="ln m" style="margin-top:30px">{kc}</div><div class="ln s" style="margin-top:24px">{tip}</div></div>'
-S=[(0,2.4,ph('01-kurtka-park-rozstebuye','50% 20%')+'<div class="c" style="bottom:330px"><div class="ln h">6 ЗИМОВИХ ОВОЧІВ</div><div class="ln h"><span class="r">ЗАМІСТЬ</span> ТЕПЛИЧНИХ</div><div class="ln h">ОГІРКІВ</div></div>',True),
+S=[(0,2.4,ph('15-selfi-osin-pid-derevom-usmishka','50% 50%','shadeT')+'<div class="c" style="top:230px"><div class="ln h">6 ЗИМОВИХ ОВОЧІВ</div><div class="ln h"><span class="r">ЗАМІСТЬ</span> ТЕПЛИЧНИХ</div><div class="ln h">ОГІРКІВ</div></div>',True),
 (2.4,5.2,'<div class="c" style="top:320px"><div class="ln h">І СИТНІШИХ ЗА <span class="r">БУТЕРБРОД</span></div><div class="ln card" style="margin-top:70px"><div class="m">250 ККАЛ =</div><div class="s" style="margin-top:14px">1 бутерброд з ковбасою</div><div class="m r" style="margin-top:20px">АБО 600 Г БУРЯКУ</div></div></div>',False),
 (5.2,8.0,veg(1,'БУРЯК','43 ККАЛ · 2,8 Г КЛІТКОВИНИ','Запечи цілим або натри з часником','beet'),False),
 (8.0,10.8,veg(2,'КАПУСТА','25 ККАЛ','200 г капусти — повна тарілка за 50 ккал','cab'),False),
@@ -17,5 +17,5 @@ S=[(0,2.4,ph('01-kurtka-park-rozstebuye','50% 20%')+'<div class="c" style="botto
 (13.8,16.6,veg(4,'ГАРБУЗ','26 ККАЛ','Часточками в духовку: 200°, 25 хвилин','pum'),False),
 (16.6,19.4,veg(5,'РЕДЬКА','34 ККАЛ','Натри з яблуком і ложкою сметани','rad'),False),
 (19.4,22.4,veg(6,'ТОПІНАМБУР','73 ККАЛ · ІНУЛІН','Їжа для корисних бактерій кишківника','top'),False),
-(22.4,25.5,ph('01-kurtka-park-rozstebuye','50% 30%')+'<div class="c" style="bottom:330px"><div class="ln h" style="font-size:170px"><span class="r">ЗБЕРЕЖИ</span></div><div class="ln s">Список знадобиться в магазині</div></div>',True)]
+(22.4,25.5,ph('05-svetr-cegla-noha-na-vystupi-usmishka','45% 25%')+'<div class="c" style="bottom:330px"><div class="ln h" style="font-size:170px"><span class="r">ЗБЕРЕЖИ</span></div><div class="ln s">Список знадобиться в магазині</div></div>',True)]
 build(S,25.5,'reel1.html')
